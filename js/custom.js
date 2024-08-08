@@ -90,3 +90,8 @@ function mainNav() {
 $('.navbar-collapse a').click(function () {
 	$(".navbar-collapse").collapse('hide');
 });
+
+
+function coming_soon(){
+	alert("Coming soon...");
+}

@@ -100,7 +100,7 @@ hr {
   background: url('https://www.dice.com/binaries/medium/content/gallery/dice/insights/2022/09/shutterstock_2079730714.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: bottom;
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -112,6 +112,9 @@ hr {
   align-items: center;
   text-align: center;
   height: 100vh;
+  
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .tm-home-title,
@@ -226,6 +229,11 @@ hr {
 
 .linkedin {
   background: #cc2127;
+}
+
+.tm-about p{
+  font-size: large;
+  font-weight: bold;
 }
 
 .media {
