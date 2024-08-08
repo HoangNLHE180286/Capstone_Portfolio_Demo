@@ -188,6 +188,8 @@ hr {
   float: right;
   padding-right: 80px;
   font-size: large;
+  font-weight: bold;
+  color: black;
 }
 
 .tm-about {
